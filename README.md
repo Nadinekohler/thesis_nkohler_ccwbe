@@ -13,7 +13,7 @@
 # "ccwbe_standorthinweiskarteV2_rcp45" / "ccwbe_standorthinweiskarteV2_rcp85": modells forest site types in the Canton Bern for the altitutinal vegetation belts under the concentration pathway RCP4.5 and RCP8.5, respectively, in a raster data frame. 
 
 # STEP 2: 
-# use toolbox "postprocessing2_rcp45" / "postprocessing2_rcp85" to transform raster outputs into shapefiles
+# use model "postprocessing2_rcp45" / "postprocessing2_rcp85" in ArcMap toolbox to transform raster outputs into shapefiles
 
 # STEP 3: 
 # "ccwbe_standorthinweiskarteV2_rcp45_join" / "ccwbe_standorthinweiskarteV2_rcp85_join": reads shapefiles and joins parameters for each forst site type, adds region (Berner Jura, Berner Mittelland, Berner Oberland) and area ([m2]) per polygon.
